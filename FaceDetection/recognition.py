@@ -26,7 +26,7 @@ while True:
             cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0, 0, 255), 2)
             if i==2:
                 break
-    cv2.imshow("Baslik", img)
+    cv2.imshow("Title", img)
     k = cv2.waitKey(30) & 0xFF
 
     if k == 27:
